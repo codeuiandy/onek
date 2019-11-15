@@ -1,0 +1,36 @@
+.colum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 400px;
+ box-sizing: border-box;
+}
+.col_1{
+width: 300px;
+
+
+}
+
+.col_1 h2{
+    font-size: 22px;
+    font-weight: bold;
+ position: relative;
+ left: 90px;
+}
+.col_2{
+    
+}
+.col_2 img{
+    width: 543px;
+    height: 237;
+  
+    position: relative;
+    right: 90px;
+ 
+}
+.downloadlink{
+    width:100px;
+    position: relative;
+ left: 90px;
+}

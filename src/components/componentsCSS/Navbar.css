@@ -1,0 +1,13 @@
+.Navlinks{
+    color: #707070 !important;
+}
+.Navlinklast{
+    margin-right: 80px !important;
+}
+.Navlogo{
+    width: 130px;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    margin-left: 70px;
+}

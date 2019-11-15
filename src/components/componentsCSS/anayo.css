@@ -1,0 +1,173 @@
+
+.modalParr{
+    width: 100%;
+
+    display: flex;
+justify-content: flex-start;
+align-items: center;
+  
+
+   }
+   .modalParr h1{
+       font-size: 28px;
+       margin-left: 30px;
+   }
+
+   
+   
+
+   .buttonInsides{
+       position:relative;
+   margin-left: 300px;
+
+     }
+     .search{
+       position:absolute;
+       left: 0px;
+       top: 4px;
+       border:none;
+      cursor: pointer;
+       border-radius:100%;
+       outline:none;
+       text-align:center;
+       padding-left: 10px;
+       margin-left: 10px;
+     }
+     .inputbox{
+         width: 330px;
+         border-radius: 10px;
+         -webkit-border-radius: 10px;
+         -moz-border-radius: 10px;
+         -ms-border-radius: 10px;
+         -o-border-radius: 10px;
+         outline: none;
+         border-width: 1px;
+         border-color: gray;
+         padding:2px;
+}
+     .inputbox::placeholder{
+        
+         padding-left: 40px;
+     }
+
+     .products{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,300px)) ;
+      grid-auto-rows: auto;
+        grid-gap: 10px;
+        height:auto;
+        justify-content: center;
+        align-items: flex-start;
+      
+        margin: 10px;
+        text-align: start;
+        margin-top: 17px;
+      
+        filter:  drop-shadow(10px 20px 3px rgba(0, 0, 0, 0.308)) ;
+        -webkit-filter:  drop-shadow(10px 20px 3px rgba(0, 0, 0, 0.308)) ;  
+   
+      }
+
+      .products >div{
+        background-color:white;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-style:italic;
+        overflow: hidden;
+        border-radius:10px ;
+        -webkit-border-radius:10px ;
+        -moz-border-radius:10px ;
+        -ms-border-radius:10px ;
+        -o-border-radius:10px ;
+      }
+      .productss{
+        margin: 5px;
+        text-align: center;
+
+      }
+        .productImg{
+            background-size: cover;
+            object-fit: fill;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 120px;
+            height: 32px;
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            background-repeat: no-repeat;
+        }
+        .productStore{
+            display: flex;
+        
+        }
+
+        .productStore p{
+            margin-right: auto;
+            padding-left: 10px;
+            font-size: bold;
+            color: rgba(0, 0, 0, 0.808);
+        }
+.fa-star {
+    color: orange;
+    font-size: 18px;
+    padding: 5px;
+
+    
+}
+.fa-star-half-o{
+    color: orange;
+    font-size: 18px;
+    padding: 5px;
+}
+        .productStore div{
+  padding-right: 10px;
+        }
+
+        .productWrapper{
+            background-color: rgba(128, 128, 128, 0.281);
+            overflow: hidden;
+            box-sizing: border-box;
+            margin-top: 10px;
+          height: 100%;
+        }
+        .flexcon{
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            text-align: start;
+        }
+        .sellerstore{
+            grid-template-columns: repeat(auto-fit,minmax(30px,30px)) ;
+          
+        }
+        .flexch1{
+            margin-right: auto;
+            padding:0px 0px 5px 10px;
+           
+           
+        }
+        .flexch1 button{
+            margin: 2px;
+            border: 2px solid rgba(0, 0, 0, 0.411);
+            background-color: white;
+            color: black;
+            padding: 5px;
+            font-size: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            color: #707070
+
+            ;
+}
+.flexch2{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.shopbtn{
+    height:41px;
+    width: 98px;
+}
